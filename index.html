@@ -6,20 +6,45 @@
     <title>Portfolio - Prince Sahu</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+    <script>
+        function toggleNavbar() {
+            const navMenu = document.getElementById("mobile-menu");
+            navMenu.classList.toggle("hidden");
+        }
+    </script>
 <body class="bg-gray-100 text-gray-900">
     <!-- Navbar -->
+  
     <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo -->
             <div class="flex items-center space-x-4">
                 <img src="./images/userAsset/logo2images.png" alt="Logo" class="w-16">
                 <span class="text-2xl font-semibold text-gray-700">Prince Sahu</span>
             </div>
-            <nav class="flex space-x-6 text-lg">
+
+            <!-- Hamburger Menu for Mobile -->
+            <button class="lg:hidden text-gray-700 focus:outline-none" onclick="toggleNavbar()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="hidden lg:flex space-x-6 text-lg" id="mobile-menu">
                 <a href="#project" class="hover:font-bold hover:text-blue-600">Projects</a>
                 <a href="#skills" class="hover:font-bold hover:text-blue-600">Skills</a>
                 <a href="#contact-me" class="hover:font-bold hover:text-blue-600">Contact Me</a>
             </nav>
         </div>
+
+        <!-- Mobile Dropdown Menu -->
+        <nav id="mobile-menu" class="hidden flex-col bg-white shadow-md lg:hidden">
+            <a href="#project" class="py-2 px-4 hover:bg-gray-100 hover:font-bold">Projects</a>
+            <a href="#skills" class="py-2 px-4 hover:bg-gray-100 hover:font-bold">Skills</a>
+            <a href="#contact-me" class="py-2 px-4 hover:bg-gray-100 hover:font-bold">Contact Me</a>
+        </nav>
     </header>
 
     <!-- Hero Section -->
