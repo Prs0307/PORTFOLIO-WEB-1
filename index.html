@@ -23,18 +23,26 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="mt-16 bg-gray-50 py-20 text-center relative">
-        <div class="container mx-auto px-6">
-            <h1 class="text-5xl font-bold text-gray-800">
-                Hi! Myself <span class="text-blue-600">Prince Sahu</span>
-            </h1>
-            <p class="text-xl mt-4 text-gray-600">
-                I am a software developer and programmer. Welcome to my portfolio website!
-            </p>
-            <a href="https://drive.google.com/file/d/1vGnLEjdbVBD-izfVg_dIYKmpHg6V6JgO/view?usp=sharing"
-                class="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-md shadow hover:bg-blue-500">
-                Download CV
-            </a>
+    <section class="mt-16 bg-gray-50 py-20 relative">
+        <div class="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between">
+            <!-- Left Section -->
+            <div class="text-center lg:text-left lg:w-1/2 space-y-4">
+                <h1 class="text-5xl font-bold text-gray-800">
+                    Hi! Myself <span class="text-blue-600">Prince Sahu</span>
+                </h1>
+                <p class="text-xl mt-4 text-gray-600">
+                    I am a software developer and programmer. Welcome to my portfolio website!
+                </p>
+                <a href="https://drive.google.com/file/d/1vGnLEjdbVBD-izfVg_dIYKmpHg6V6JgO/view?usp=sharing"
+                    class="inline-block mt-6 bg-blue-600 text-white px-6 py-3 rounded-md shadow hover:bg-blue-500">
+                    Download CV
+                </a>
+            </div>
+
+            <!-- Right Section (Image) -->
+            <div class="mt-10 lg:mt-0 lg:w-1/2 flex justify-center">
+                <img src="./images/userAsset/mypic.png" alt="Prince Sahu" class="w-80 h-80 object-cover rounded-full shadow-lg">
+            </div>
         </div>
     </section>
 
@@ -45,16 +53,39 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
                 <!-- Project 1 -->
                 <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-2xl font-bold text-gray-700">Product Landing Page</h3>
+                    <p class="mt-4 text-gray-600">
+                        A responsive landing page showcasing product details and features. Built using HTML, CSS, and Bootstrap.
+                    </p>
+                    <div class="flex items-center space-x-4 mt-6">
+                        <a href="https://github.com/Prs0307/Product-Landing-Page" class="text-blue-600 hover:underline">GitHub</a>
+                        <a href="https://prs0307.github.io/Product-Landing-Page/" class="text-blue-600 hover:underline">Live Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
                     <h3 class="text-2xl font-bold text-gray-700">Weather App</h3>
                     <p class="mt-4 text-gray-600">
-                        A feature-rich weather app powered by OpenWeather API to provide accurate forecasts.
+                        A feature-rich weather app powered by OpenWeather API to provide accurate forecasts for any city.
                     </p>
                     <div class="flex items-center space-x-4 mt-6">
                         <a href="https://github.com/Prs0307/weather-App" class="text-blue-600 hover:underline">GitHub</a>
                         <a href="#" class="text-blue-600 hover:underline">Live Demo</a>
                     </div>
                 </div>
-                <!-- Add more projects similarly -->
+
+                <!-- Project 3 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition">
+                    <h3 class="text-2xl font-bold text-gray-700">GDSC JEC Website</h3>
+                    <p class="mt-4 text-gray-600">
+                        Designed a user-friendly website for Google Developer Student Club (GDSC) showcasing events and activities.
+                    </p>
+                    <div class="flex items-center space-x-4 mt-6">
+                        <a href="https://github.com/gdscjec/gdscjec.github.io" class="text-blue-600 hover:underline">GitHub</a>
+                        <a href="https://ssahhc.github.io/Gdsc_jec_website/" class="text-blue-600 hover:underline">Live Demo</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -100,395 +131,3 @@
     </footer>
 </body>
 </html>
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <!-- HII -->
-    <title>PortFolio-Prince Sahu</title>
-</head>
-<body>
-    <!-- Welcome to my Port folio Website -->
-    <div id="wrapper">
-        <!-- all section -->
-        <div class="container">
-            <div class="navbar">
-                <div class="logo-container">
-                    <img src="./images/userAsset/logo2images.png" alt="P" class="logo mine">
-                    <div class="logo-text">rince Sahu</div>
-                </div>
-                <div class="nav-items">
-                    <div><a href="#project">Project</a></div>
-                    <div><a href="#skills">Skills</a></div>
-                    <div><a href="#contact-me">Contact Me</a></div>
-                </div>
-            </div>
-        
-         <div class="hero-section">
-            <div class="faded-text">
-                Prince Sahu
-            </div>
-            <div class="hero-sec-left">
-                <div class="hero-sec-heading"> Hii! Myself  <span class="me">Prince Sahu</span> 
-                </div>
-                <div class="hero-sec-subheading">I am a <span class="roles"></span>
-                </div>
-                <div class="hero-section-desc">
-                    I am a software developer and a programmer and here is my portfolio website.
-                     Here you'll get to know about my journey as software developer.
-            </div>
-            <div class="hero-section-btn btn-pink" id="pink_btn">
-                <!-- <object data="./images/userAsset/prince-cv - Google Docs.pdf" width="100%" height="200p%">
-                    <p>Unable to display PDF file. <a href="https://drive.google.com/file/d/1vGnLEjdbVBD-izfVg_dIYKmpHg6V6JgO/view?usp=sharing">Download</a> instead.</p>
-                  </object> -->
-                <!-- <a href="https://docs.google.com/document/d/15CWI7THEpz1eIf3q_dhkku1YtRQKLyJpOycioPAfdvI/edit?usp=sharing">MY CV</a> -->
-                <a href="https://drive.google.com/file/d/1vGnLEjdbVBD-izfVg_dIYKmpHg6V6JgO/view?usp=sharing"  target="_blank" >Download CV</a> 
-            </div>
-         </div>
-         <div class="hero-sec-right ">
-            <div class="absolute icons i-zig-up">
-                <img src="./images/userAsset/zigzag.png" alt="i"/>
-            </div>
-            <div class="absolute icons i-zig">
-                <img src="./images/userAsset/zigzag.png" alt="i"/>
-            </div>
-            <div class="absolute icons i-cube">
-                <img src="./images/userAsset/cube.png" alt="i"/>
-            </div>
-            <div class="absolute icons i-circle1">
-                <img src="./images/userAsset/circle.png" alt="i"/>
-            </div>
-            <div class="absolute icons i-circle2">
-                <img src="./images/userAsset/circle.png" alt="i"/>
-            </div>
-            
-            <div class="absolute icons i-layer">
-                <img src="./images/userAsset/blob vector.png" alt="i"/>
-            </div>
-            <div class="absolute icons i-plus">
-                <img src="./images/userAsset/plus.png" alt="i"/>
-            </div>
-            <div class="absolute icons user-image">
-                <img src="./images/userAsset/mypic.png" alt="i"/>
-            </div>
-            <div class="absolute icons i-zig-down1">
-                <img src="./images/userAsset/zigzag.png" alt="i"/>
-            </div>
-            <div class="absolute icons i-zig-down2">
-                <img src="./images/userAsset/zigzag.png" alt="i"/>
-            </div>
-        </div>
-     </div>
-     <div class="project-section" id="project">
-        <h2 class="page-header">
-            Projects
-        </h2>
-        <div class="project-container">
-            <div class="project-card" id="project1">
-                <div class="project-number project-number-left">
-                    01
-                </div>
-                <div class="project-content">
-                    <div class="project-skills-container skillImg" id="sk">
-                        <!-- <img src="" alt="html" class="project-skill"> -->
-                        <img src="./images/stack/HTML.png" alt="html" class="project-skill">
-                        <img src="./images/stack/CSS.png" alt="css" class="project-skill">
-                        <img src="./images/stack/Javascript.svg" alt="js" class="project-skill">
-                        <img src="./images/stack/Bootstrap.svg" alt="bs" class="project-skill">
-                        <img src="./images/stack/Express.png" alt="" class="project-skill">
-                        <img src="./images/stack/NextJsCircle.png" alt="" class="project-skill">
-                        <img src="./images/stack/Tailwind.png" alt="" class="project-skill">
-                    </div>
-                    <h2 class="project-heading">
-                        Product Landing Page
-                    </h2>
-                    <p class="project-subheading">
-                        It is Basically Basic Weather App which shows the weather of the city you search for It uses Openweather Api.
-                    </p>
-                    <div class="btn-group">
-                         <button class="btn-pink btn-project" id="pink_btn">Read-More</button>
-                         <a href="https://github.com/Prs0307/Product-Landing-Page">
-                            <i title="Git Hublink" class="fa-brands fa-github icon"></i>
-                         </a>
-                         <a href="https://prs0307.github.io/Product-Landing-Page/">
-                            <i title="Live Link" class="fa-solid fa-link icon"></i>
-                         </a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card" id="project2">
-                <div class="project-number project-number-right">
-                    02
-                </div>
-                <div class="project-content">
-                    <div class="project-skills-container skillImg" id="sk">
-                        <!-- <img src="" alt="html" class="project-skill"> -->
-                        <img src="./images/stack/HTML.png" alt="html" class="project-skill">
-                        <img src="./images/stack/CSS.png" alt="css" class="project-skill">
-                        <img src="./images/stack/Javascript.svg" alt="js" class="project-skill">
-                        <img src="./images/stack/Bootstrap.svg" alt="bs" class="project-skill">
-                        <img src="./images/stack/Express.png" alt="" class="project-skill">
-                        <img src="./images/stack/NextJsCircle.png" alt="" class="project-skill">
-                        <img src="./images/stack/Tailwind.png" alt="" class="project-skill">
-                    </div>
-                    <h2 class="project-heading">
-                        Weather App
-                    </h2>
-                    <p class="project-subheading">
-                        Developed a feature-rich weather app powered by the OpenWeather API. This app provides accurate forecasts for any city, showcasing my proficiency in full-stack web development. 
-                    </p>
-                    <div class="btn-group">
-                         <button class="btn-pink btn-project" id="pink_btn">Read-More</button>
-                         <i title="Git Hublink" class="fa-brands fa-github icon">
-
-                         <a href="https://github.com/Prs0307/weather-App">
-                         </a>
-                        </i>
-                        <i title="Live Link" class="fa-solid fa-link icon">
-                         <a href="#">
-                         </a>
-                        </i>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card" id="project3">
-                <div class="project-number project-number-left">
-                    03
-                </div>
-                <div class="project-content">
-                    <div class="project-skills-container skillImg" id="sk">
-                        <!-- <img src="" alt="html" class="project-skill"> -->
-                        <img src="./images/stack/HTML.png" alt="html" class="project-skill">
-                        <img src="./images/stack/CSS.png" alt="css" class="project-skill">
-                        <img src="./images/stack/Javascript.svg" alt="js" class="project-skill">
-                        <img src="./images/stack/Bootstrap.svg" alt="bs" class="project-skill">
-                        <img src="./images/stack/Express.png" alt="" class="project-skill">
-                        <img src="./images/stack/NextJsCircle.png" alt="" class="project-skill">
-                        <img src="./images/stack/Tailwind.png" alt="" class="project-skill">
-                    </div>
-                    <h2 class="project-heading">
-                        GDSC WEBSITE
-                    </h2>
-                    <p class="project-subheading">
-                        It is Basically Basic GDSC WEBSITE App which shows the weather of the city you search for It uses Openweather Api.
-
-                    </p>
-                    <div class="btn-group">
-                         <button class="btn-pink btn-project" id="pink_btn">Read-More</button>
-                         <a href="https://github.com/gdscjec/gdscjec.github.io">
-                            <i title="GitHublink" class="fa-brands fa-github icon"></i>
-                         </a>
-                         <a href="https://ssahhc.github.io/Gdsc_jec_website/">
-                            <i title="LiveLink" class="fa-solid fa-link icon"></i>
-                         </a>
-                    </div>
-                </div>
-            </div>
-            <!--  -->
-        </div>
-          
-     </div> 
-     <!-- Skills Section Starts Here -->
-     <div class="skill-container container" id="skills">
-        <div class="skil-faded-text">
-            Skills
-        </div>
-        <div class="flex-item-left ">
-            <h2 class="skill-heading">
-                <span class="caps">K</span>now More About Me and
-                <br/>
-                My Tech Skills...
-            </h2>
-            <div class="skill-subheading">
-              <p> Hi Everyone, I am Prince Sahu  from Jabalpur, India. I am a software developer and a programmer and 
-                here is my portfolio website.
-                 Here you'll get to know about my journey as software developer. 
-                 I am a full stack developer
-                    and I have worked on many projects 
-                    and 
-                    Currently I am Working on MERN Stack and
-                     I am also learning Machine Learning and Data Science.
-                    and Making Projects on it.
-              </p>
-              
-              <p>
-                I am a junior pursuing Btech in Artificial Intelligence And Data Science from Jabalpur Engineering College, Jabalpur.
-                I am a self taught programmer and I have learnt many technologies and programming languages.
-                Apart from coding, some other activities that I love to do!
-                </p>
-            </div>
-
-<ul>
-    <li>
-        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"/></svg>Teaching
-
-    </li>
-    <li>
-        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"/></svg>Writing
-
-    </li>
-    <li>
-        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"/></svg>Playing
-
-    </li>
-</ul>
-
-<blockquote>
-    <p> Keep Trying and Explore new things!</p>
-
-</blockquote>
-<h5>Prince</h5>
-           
-            
-        </div>
-        <div class="flex-item-right">
-                <!-- <div class="skill-container-right"> -->
-                    <img src="./images/userAsset/blob vector.png" class="blob-style" alt="/"/>
-                    
-                    <img src="./images/stack/C-removebg-preview.png" alt="c" class="skill-logo">
-                    <img src="./images/stack/cpp.pnng-removebg-preview.png" alt="c" class="skill-logo">
-                    <img src="./images/stack/Java.png" alt="Java" class="skill-logo">
-                    <img src="./images/stack/py-removebg-preview.png" alt="Git" class="skill-logo">
-
-                    <img src="./images/stack/HTML.png" alt="HTML" class="skill-logo">
-                    <img src="./images/stack/CSS.png" alt="CSS" class="skill-logo">
-                    <img src="./images/stack/Javascript.svg" alt="JS" class="skill-logo">
-                    <img src="./images/stack/Bootstrap.svg" alt="BS" class="skill-logo">
-                    <img src="./images/stack/Express.png" alt="EXPRESS" class="skill-logo">
-                    <img src="./images/stack/NextJsCircle.png" alt="NEXTJS" class="skill-logo">
-                    <img src="./images/stack/React.png" alt="REACT" class="skill-logo">
-                    <img src="./images/stack/angular.png" alt="redux" class="skill-logo">
-                    <img src="./images/stack/Typescript.svg" alt="ts" class="skill-logo">
-                    <img src="./images/stack/FB.png" alt="ts" class="skill-logo">
-                    <img src="./images/stack/NodeJs.svg" alt="NODEJS" class="skill-logo">
-                    <img src="./images/stack/MongoDB.svg" alt="MONGODB" class="skill-logo">
-                    <img src="./images/stack/MaterialUI.svg" alt="redux" class="skill-logo">
-                    <img src="./images/stack/Tailwind.png" alt="TAILWIND" class="skill-logo">
-                    <img src="./images/stack/Git.svg" alt="Java" class="skill-logo">
-                    
-                    <img src="./images/stack/Github.svg" alt="Github" class="skill-logo">
-                <!-- </div> -->
-        </div>
-
-
-     </div>
-
-     <!-- background-color:rgb(231, 231, 231) ; -->
-   
-    <div class="contact-us-form" id="contact-me">
-        <div class="container">
-            <h1 class="contact-us-heading">
-                Contact Me
-            </h1>
-            <div class="contact-us-subheading">
-                <p>
-                    If you have any query or want to contact me, you can contact me through the form given below.
-                </p>
-        </div>
-        <div class="contact-form-container">
-            <form action="" class="form">
-                <div class="form-field-container">
-                        <input type="text"
-                            name="name"
-                            class="form-field"
-                            id=""
-                            placeholder="Enter Your name"/>
-
-                        <input type="email"
-                         name="email" 
-                         class="form-field"
-                          placeholder="Enter Your Email @2002outlook .com"/>
-                          <!-- <input type="text"
-                          name="Addresse"
-                          class="form-field"
-                          id=""
-                          placeholder="Enter Your Address"/>-->
-
-                            <input type="text"
-                            name="phone"
-                            class="form-field"
-                            id=""
-                            placeholder="Enter Your Phone Number"/>
-                            <input type="text"
-                            name="subject"
-                            class="form-field"
-                            id=""
-                            placeholder="Enter Your Subject"/> 
-                        <textarea name="message" id="" class="form-field" cols="30" rows="4">Send message </textarea>
-                        
-
-                </div>     
-                <div>
-                    <button class="btn-pink" id="submit-btn">
-                    Send Message
-                    <i class="fa-solid fa-paper-plane"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
-    </div>
-    <footer>
-        <div class="footer-container container">
-            <div class="footer-wrapper">
-                <div class="footer-faded-text">
-                    Prince Sahu
-                </div>
-                   <div class="link-wrapper">
-                    <div>
-                        <a href="#project">Projects</a>
-
-                    </div>
-                    <div>
-                        <a href="#skills">Skills</a>
-
-                    </div>
-                    <div>
-                    <a href="#contact-me">Contact Me</a>
-
-                    </div>
-                   </div>
-                   <div class="icon-wrapper">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-github"></i>
-                   </div>
-                
-                </div>
-            </div>
-         
-    </footer>
-    </div>
-     <!-- js  for running text-->
-     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
-     <script>
-        var typeData=new Typed(".roles",{
-            strings:[
-            "Learner",
-            "Web Developer",
-            "Frontend Developer",
-            "Programmer",
-            "Java Developer",
-            "Machine Learning Enthusiast",
-            "Aspiring Data Analyst"
-        ],
-        loop:  true,
-        typeSpeed:89,
-        backDelay:999,
-        }
-        );
-     </script>
-
-</body>
-</html>
- -->
